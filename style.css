@@ -28,26 +28,26 @@
    }
 
    nav{
-    padding:3px ;
+    padding:20px ;
     width: 70%;
    }
 
    .left{
       
        justify-content: flex-start;
-       align-items:flex-end;
+       align-items:center;
        
    }
    .right{
        display: flex;
        justify-content: flex-end;
-       align-items:flex-end;
+       align-items:center;
       
    }
    ul{
        list-style-type: none;
        justify-content: center;
-       align-items:flex-end;
+       align-items:center;
        flex-grow: 2;
        gap: 3rem;
    }
@@ -75,49 +75,41 @@
    }
    
    .light-blue,.pink{
-       height: 300px; 
        border:2px dashed black ;
    }
    .box:nth-child(2n){
        background-color: rgb(148, 144, 144);
    }
    .box{
-       height: 350px;
        justify-content: center;
        align-items: center;
    }
    .central-container{
-       height: 350px;
-       width:60% ;
+       width:70% ;
        margin: auto;
-       align-items: center;
+       /*align-items: center;*/
    }
    #box_centrale{
        flex-direction: row-reverse;
    }
    .light-blue{
        width:60% ;
-       background-color: lightblue;
    }
    .pink{
        width: 40%;
-       background-color: pink;
    }
    .bigbox-container{
-       height:650px ;
        justify-content: center;
        align-items: center;
    }
    .big-box{
-       height:600px;
-       width:60% ;
+       width:70% ;
        border:2px dashed black ;
        background-color: green;
    }
    
    
    footer{
-       height:500px ;
        background-color:rgb(37, 36, 36) ;
    }
       
