@@ -74,28 +74,31 @@
     margin:1rem;
    }
    
-   .light-blue,.pink{
-       border:2px dashed black ;
-   }
    .box:nth-child(2n){
        background-color: rgb(148, 144, 144);
    }
    .box{
+       padding:10px ;
        justify-content: center;
        align-items: center;
    }
    .central-container{
+    border: 1px solid black;
        width:70% ;
        margin: auto;
-       /*align-items: center;*/
+       align-items: center;
    }
    #box_centrale{
        flex-direction: row-reverse;
    }
    .light-blue{
+    text-align: center;
+    border: 1px solid black;
        width:60% ;
    }
    .pink{
+    text-align:left;
+    border: 1px solid black;
        width: 40%;
    }
    .bigbox-container{
@@ -104,10 +107,10 @@
    }
    .big-box{
        width:70% ;
-       border:2px dashed black ;
-       background-color: green;
    }
-   
+   .item{
+    width:70% ;
+   }
    
    footer{
        background-color:rgb(37, 36, 36) ;
