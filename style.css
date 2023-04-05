@@ -18,7 +18,7 @@
     color: white;
     background-image: url(jumbo.png) ;
     background-size: cover;
-    font-size: larger;
+   
 
    }
 
@@ -72,36 +72,37 @@
    .header_2 button{
     padding:5px ;
     margin:1rem;
+    
    }
    
    .box:nth-child(2n){
        background-color: rgb(148, 144, 144);
    }
    .box{
-       padding:10px ;
+       padding:20px ;
        justify-content: center;
        align-items: center;
    }
    .central-container{
-    border: 1px solid black;
+    
        width:70% ;
        margin: auto;
-       align-items: center;
    }
    #box_centrale{
        flex-direction: row-reverse;
    }
    .light-blue{
     text-align: center;
-    border: 1px solid black;
+    
        width:60% ;
    }
    .pink{
     text-align:left;
-    border: 1px solid black;
+   
        width: 40%;
    }
    .bigbox-container{
+    text-align: center;
        justify-content: center;
        align-items: center;
    }
@@ -109,11 +110,12 @@
        width:70% ;
    }
    .item{
-    width:70% ;
+    width:90% ;
    }
    
    footer{
        background-color:rgb(37, 36, 36) ;
+       color: white;
    }
       
    #footer_1{
@@ -123,21 +125,18 @@
      
    }
    .box-container{
-       width:60% ;
+       width:70% ;
        height: 350px;
-       border: 2px dashed black;
       margin: auto;
    }
    .pink-box{
        width: 25%;
        height: 100%;
-       background-color: palevioletred;
+      
    }
    .little-box{
        width:calc(75% / 4) ;
        height:100% ;
-       background-color: rgb(44, 155, 192);
-       border:2px dashed white ;
    }
    #footer_2{
       height: calc(100% - 400px);
@@ -145,8 +144,7 @@
       align-items: flex-end;
    }
    .piccolo_logo{
-       width:60% ;
-       height: 50px;
+    width: 70%;
        background-color: aqua;
        justify-content: space-between;
        align-items: center;
@@ -154,7 +152,6 @@
    .logo_button{
        background-color: pink;
        border: 1px dashed black;
-       height:50% ;
        width: 7%;
        justify-content: center;
        align-items: center;
